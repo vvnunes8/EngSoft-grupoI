@@ -1,5 +1,6 @@
-# EngSoft-grupoI
+# EngSoft-grupoI 
 
-# EstocaAi
+## EstocaAi
 
-# Página do Projeto: https://vvnunes8.github.io/EngSoft-grupoI/trabalho.html
+### Página do Projeto: https://vvnunes8.github.io/EngSoft-grupoI/trabalho.html
+### Reposiótio do Projeto: https://github.com/vvnunes8/EngSoft-grupoI
