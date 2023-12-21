@@ -112,15 +112,92 @@
 
 	<li>Como dono(a) de casa eu quero poder acompanhar o histórico de preço do produto para efetuar minhas compras no melhor momento possível.</li>
       </ol>
-
 	    <h3>Caso de Uso 1: Acessar Lista de Compras Personalizada</h3>
-	    <ul>
-		    <li>Ator principal: Dono(a) de Casa</li>
-		    <p>Pré-condição: </p>
-		    <li>Dono(a) de Casa está logado ao sistema</li>
-		    <p>Gatilho: </p>
-		    <li>Dono(a) de Casa escolhe acessar Listas de Compras Personalizada</li>
-	    </ul>
+  
+  <form>
+    <h4>Ator principal:</h4>
+    <p>Dono(a) de Casa</p>
+
+    <h4>Pré-condições:</h4>
+    <p>Dono(a) de Casa está logado ao sistema</p>
+
+    <h4>Gatilho:</h4>
+    <p>Dono(a) de Casa escolhe acessar Listas de Compras Personalizada</p>
+
+    <h4>Cenário Principal:</h4>
+    <ol>
+      <li>Sistema pede para o(a) dono(a) de casa confirmar o pedido.</li>
+      <li>Dono(a) de casa confirma o pedido.</li>
+      <li>Sistema verifica se o dono(a) de casa tem compras registradas.</li>
+      <li>Sistema gera a lista de compras personalizada.</li>
+      <li>Sistema informa que a lista de compras foi gerada.</li>
+      <li>Sistema coloca em tela a lista de compras personalizada.</li>
+    </ol>
+
+    <h4>Cenário Alternativo:</h4>
+    <ol>
+      <li>3.a Dono(a) de casa não tem compras registradas no sistema:</li>
+      <li>Sistema informa para o(a) dono(a) de casa que não é possível gerar a lista de compras personalizada.</li>
+      <li>Dono(a) de casa aceita a mensagem.</li>
+    </ol>
+  </form>
+
+  <h3>Caso de Uso 2: Catalogar Preços e Produtos</h3>
+  
+  <form>
+    <h4>Ator principal:</h4>
+    <p>Dono de Mercado</p>
+
+    <h4>Pré-condições:</h4>
+    <p>Dono(a) de Mercado está logado ao sistema</p>
+
+    <h4>Gatilho:</h4>
+    <p>Dono de Mercado escolhe catalogar preços e produtos</p>
+
+    <h4>Cenário Principal:</h4>
+    <ol>
+      <li>Sistema pede para Dono de Mercado confirmar o pedido.</li>
+      <li>Sistema abre a funcionalidade de cadastro de produtos.</li>
+      <li>Dono do Mercado insere nome, descrição, categoria e preço do produto.</li>
+      <li>Sistema confirma o registro do novo produto.</li>
+      <li>Sistema adiciona novo produto ao catálogo do mercado.</li>
+    </ol>
+
+    <h4>Cenário Alternativo:</h4>
+    <ol>
+      <li>3.a Dono do Mercado insere um produto com informações incompletas:</li>
+      <li>Sistema informa sobre campos obrigatórios não preenchidos.</li>
+      <li>Dono do Mercado cadastra um produto com as informações completas.</li>
+      <li>Sistema confirma o registro do produto.</li>
+    </ol>
+  </form>
+
+  <h3>Caso de Uso 3: Incluir publicidade no aplicativo</h3>
+  
+  <form>
+    <h4>Ator principal:</h4>
+    <p>Anunciante</p>
+
+    <h4>Pré-condições:</h4>
+    <p>Anunciante está logado no sistema</p>
+
+    <h4>Gatilho:</h4>
+    <p>Anunciante acessa as configurações de marketing</p>
+
+    <h4>Cenário Principal:</h4>
+    <ol>
+      <li>Sistema abre as configurações de marketing.</li>
+      <li>Anunciante insere o nome do estabelecimento.</li>
+      <li>Sistema confirma a inclusão do nome do estabelecimento.</li>
+    </ol>
+
+    <h4>Cenário Alternativo:</h4>
+    <ol>
+      <li>2.a Anunciante insere um nome muito longo:</li>
+      <li>Sistema alerta sobre o tamanho máximo permitido para o nome.</li>
+      <li>Anunciante ajusta o nome dentro dos limites.</li>
+    </ol>
+  </form>
     </div>
 	  
     <div class="fixed-footer" style="height: 36px;"><a href="https://vvnunes8.github.io/EngSoft-grupoI/"
